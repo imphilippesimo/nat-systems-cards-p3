@@ -1,0 +1,9 @@
+<h1>Accueil</h1>
+
+<div class="container" *ngIf="cards">
+    <div class="item" *ngFor="let card of cards">
+        <img [src]="card.imageUrl">
+
+    </div>
+
+</div>
